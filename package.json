@@ -1,0 +1,20 @@
+{
+  "name": "car-garage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmed almusawi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "env": "^0.0.2",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "module": "^1.2.5",
+    "mongoose": "^6.3.5"
+  }
+}

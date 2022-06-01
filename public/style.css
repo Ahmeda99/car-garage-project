@@ -1,0 +1,21 @@
+#container {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  color: white
+}
+
+img {
+  float: left;
+  border-radius: 25px;
+  background: black;
+  padding: 5px;
+  width: 400px;
+  height: 300px;
+}
+
+body {
+  background-image:url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/470521-Everybody039s_Gone_to_the_Rapture-in-game-CryEngine-Garage-workshop.jpg")
+}

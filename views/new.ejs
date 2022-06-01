@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/app.css" />
+		<link rel="stylesheet" href="/newstyle.css">
+		<title>Car Gallery</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul id="navbar">
+					<li>
+						<a href="/home">Home</a>
+					</li>
+					<li>
+						<a href="/cars/new">Add a new Car</a>
+					</li>
+				</ul>
+			</nav>
+			<h1>Add a Car</h1>
+			
+		</header>
+		<main>
+			<form action="/cars" method="POST">
+				<input type="text" name="name" />
+				<input type="submit" value="Add Car" />
+			</form>
+		</main>
+	</body>
+</html>
