@@ -10,7 +10,6 @@ const Car = require("./models/car");
 
 //Database Connection
 mongoose.connect(process.env.DATABASE_URL, {
-    useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
