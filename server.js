@@ -23,7 +23,7 @@ db.on('disconnected', () => console.log('mongo disconnected'));
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
-
+app.get("/", (req, res) => res.redirect("/cars"));
 //ROUTES
 
 const seedCar = require('./models/cars.js');
