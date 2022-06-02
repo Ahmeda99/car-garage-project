@@ -10,8 +10,8 @@ const Car = require("./models/car");
 
 //Database Connection
 mongoose.connect(process.env.DATABASE_URL, {
-    useUnifiedTopology: true
-});
+    useUnifiedTopology: true,
+  });
 
 // Database Connection Error/Success
 const db = mongoose.connection
@@ -99,6 +99,6 @@ app.get("/cars/:id/edit", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT, () =>
-    console.log("connected")
-);
+app.listen(process.env.PORT, () => {
+    console.log('listening on port');
+  });
