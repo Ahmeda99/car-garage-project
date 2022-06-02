@@ -9,12 +9,11 @@ const methodOverride = require("method-override");
 const Car = require("./models/car");
 
 //Database Connection
-mongoose.connect(MONGODB_URI , { useNewUrlParser: true, useUnifiedTopology: true }
-    );
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
+
 // Database Connection Error/Success
 const MONGODB_URI = process.env.MONGODB_URI;
 const db = mongoose.connection
