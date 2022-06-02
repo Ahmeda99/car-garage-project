@@ -27,7 +27,6 @@ app.use(express.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
 
 //ROUTES
-const PORT = 3000;
 
 const seedCar = require('./models/cars.js');
 app.get('/seed', (req, res) => {
@@ -102,6 +101,6 @@ app.get("/cars/:id/edit", (req, res) => {
   });
 });
 
-app.listen(PORT, () =>
-    console.log("connected" , PORT)
+app.listen(process.env.PORT, () =>
+    console.log("connected")
 );
