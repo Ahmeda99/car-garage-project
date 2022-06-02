@@ -51,5 +51,5 @@ module.exports = [
     name: 'Subaru Impreza WRX STI',
     description: 'The Subaru Tecnica International (STI) models were exclusive JDM cars and were not available outside Japan. They were upgraded from the standard WRX vehicle with performance-tuned engines, transmissions and suspensions.',
     img: 'https://www.motortrend.com/uploads/sites/11/2010/07/2011-subaru-impreza-WRX-STI-front-three-quarters-static-driver-2.jpg?fit=around%7C875:492',
-  },
+  }
 ]
