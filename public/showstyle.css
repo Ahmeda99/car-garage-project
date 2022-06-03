@@ -33,6 +33,9 @@ body {
   padding: 5px;
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
@@ -51,9 +54,39 @@ margin: 5px;
 
 .edit{
   text-align:center;
-
 }
 
 .delete{
   text-align:center;
+}
+
+.btn {
+  position: relative;
+  all: unset;
+  font-size: 20px;
+  width: 70px;
+  height: 30px;
+  background: #ea0a0a;
+  border-radius: 30px;
+  cursor: pointer;
+  margin:20px;
+}
+
+.btnn {
+  position: relative;
+  all: unset;
+  font-size: 20px;
+  width: 70px;
+  height: 30px;
+  background: #ea9f0a;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.buttons{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
 }
