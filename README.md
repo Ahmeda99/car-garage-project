@@ -14,9 +14,11 @@ For this project I used CRUD elements throughout my work. Using mongoDB and hero
 
  Bootstrap, Mongodb, Node js, HTML5, CSS, JavaScript, Jquery, Ajax, Method Override, Express.
  
- ## link
+ ## links
  
  https://carsproject2.herokuapp.com/home
+ 
+ https://trello.com/invite/b/zE6wRfY5/91751131254b3a8bda3b284d0cab1a64/cars-project-2
  
 ## future features
 
