@@ -4,11 +4,11 @@ For this project I used CRUD elements throughout my work. Using mongoDB and hero
 
 ![screenshot](https://i.imgur.com/IIhVvPh.png)
 
-https://imgur.com/gallery/g7nEqtG
+![screenshot](https://i.imgur.com/k4nATFt.png)
 
-https://imgur.com/gallery/qcdWAhN
+![screenshot](https://i.imgur.com/i99Q0yS.jpeg)
 
-https://imgur.com/gallery/Ay3as1s
+![screenshot](https://i.imgur.com/cPWmmZ8.png)
 
 ## Technologies Used
 
