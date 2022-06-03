@@ -2,7 +2,7 @@
 
 For this project I used CRUD elements throughout my work. Using mongoDB and heroku to push and deploy my work. Seeing my passion for cars I created a site where people are able to post and view from a gallery of cars.
 
-![screenshot]((https://imgur.com/gallery/uBdHJeo))
+![screenshot] (https://imgur.com/gallery/uBdHJeo)
 
 https://imgur.com/gallery/g7nEqtG
 
