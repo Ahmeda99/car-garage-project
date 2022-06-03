@@ -18,12 +18,6 @@ module.exports = [
   },
 
   {
-    name: 'Nissan Skyline GT-R',
-    description: 'This product was the culmination of a number of years worth of motor racing knowledge which cemented the model’s status at the forefront of JDM cars. The Nissan Skyline GT-R has become an iconic sports car, being named by Top Gear “as the only true Japanese contribution in the line of super cars” and by Jeremy Clarkson as “one of the best cars in the world.”',
-    img: 'https://www.newnissanz.com/attachments/1999_nissan_skyline_gt-r_16226515140ce7401frory-seerden-dsc_9355-edit-jpg.1541/',
-  },
-
-  {
     name: 'Nissan Silvia',
     description: 'It was an instant hit in Japan and won the nation’s Car of The Year Award in 1989. This two door sports coupe also made a huge impression on the drifting scene as owners modified it to compete in competitions or on the touge.',
     img: 'https://preview.redd.it/yvktug7lyks41.jpg?auto=webp&s=a5afc7f73fb02fb1722c8d9ce23ae91e8218d717',
@@ -51,5 +45,11 @@ module.exports = [
     name: 'Subaru Impreza WRX STI',
     description: 'The Subaru Tecnica International (STI) models were exclusive JDM cars and were not available outside Japan. They were upgraded from the standard WRX vehicle with performance-tuned engines, transmissions and suspensions.',
     img: 'https://www.motortrend.com/uploads/sites/11/2010/07/2011-subaru-impreza-WRX-STI-front-three-quarters-static-driver-2.jpg?fit=around%7C875:492',
-  }
+  },
+
+  {
+    name: 'Nissan Skyline GT-R',
+    description: 'This product was the culmination of a number of years worth of motor racing knowledge which cemented the model’s status at the forefront of JDM cars. The Nissan Skyline GT-R has become an iconic sports car, being named by Top Gear “as the only true Japanese contribution in the line of super cars” and by Jeremy Clarkson as “one of the best cars in the world.”',
+    img: 'https://www.newnissanz.com/attachments/1999_nissan_skyline_gt-r_16226515140ce7401frory-seerden-dsc_9355-edit-jpg.1541/',
+  },
 ]

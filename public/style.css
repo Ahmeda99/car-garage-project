@@ -1,9 +1,9 @@
 #container {
   display: flex;
   justify-content: space-around;
-  display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  padding: 20px;
 }
 
 img {
@@ -17,5 +17,18 @@ img {
 
 body {
   background-image:url("https://hdwallpaperim.com/wp-content/uploads/2017/08/23/470521-Everybody039s_Gone_to_the_Rapture-in-game-CryEngine-Garage-workshop.jpg");
-  color: white
+  color: white;
+  font-size: 25px;
+  text-align:center;
+}
+
+.carstitle{
+  padding: 20px;
+}
+
+.namehome{
+  color: white;
+  font-size: 25px;
+  transition: 0.5s linear;
+  -webkit-text-stroke: 1px black;
 }

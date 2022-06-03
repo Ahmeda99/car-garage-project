@@ -6,29 +6,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/css/app.css" />
         <link rel="stylesheet" href="./style.css">
+		<%- include('../partials/head.ejs', {pageName: 'Edit Review'}) %>
 		<title>Index page</title>
 	</head>
 	<body>
 		<header>
-			<nav>
-				<ul id="navbar">
-					<li>
-						<a href="/home">Home</a>
-					</li>
-					<li>
-						<a href="/cars/new">Add a new Car</a>
-					</li>
-				</ul>
-			</nav>
 		</header>
-		<h1 id="Title">Garage</h1>
 		<main>
-			<h2 id="cars">List of Cars</h2> 
+			<h1 class="carstitle">GARAGE</h1> 
 			<div id="container">
 				<% for (let i = 0; i < cars.length; i++ ) { %>
 				<div>
 					<img class="poster" src="<%= cars[i].img %>" alt="pic" /> </br>
-					<a class="name" href="/cars/<%= cars[i]._id %> "><%=cars[i].name %> </a> 
+					<a class="namehome" href="/cars/<%= cars[i]._id %> "><%=cars[i].name %> </a> 
 				</div>
 				<% } %>
 			</div>

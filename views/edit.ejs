@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/app.css" />
     <link rel="stylesheet" href="/editstyle.css">
-    <title>Edit Page</title>
+    <%- include('../partials/head.ejs', {pageName: 'Edit Review'}) %>
+    <title>Edit Car</title>
 </head>
 <body>
-    <h1>Edit Car</h1>
+    <main class="edit">
+        <ul class="page">
+        <h1>Edit Car</h1>
     <form action="/cars/<%=car._id%>?_method=PUT" method="POST">
         Name:<input type="text" name="name" value="<%=car.name%>" /><br />
         Description: <input type="text" name="description" value="<%=car.description%>"  /><br />
         
         Image URL: <input type="text" name="img" value="<%=car.img%>" /><br />
    
-            <a href="/car"></a><input type ="submit" value ="Submit Changes"/>
+            <a href="/car"></a><input type ="button" class="btn btn-primary btn-lg" value ="Submit Changes"/>
     </form>
+    </ul>
+    </main>
 </body>
 </html>

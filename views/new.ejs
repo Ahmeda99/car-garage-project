@@ -6,30 +6,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/css/app.css" />
 		<link rel="stylesheet" href="/newstyle.css">
-		<title>Car Gallery</title>
+		<%- include('../partials/head.ejs', {pageName: 'Edit Review'}) %>
+		<title>New Car Post</title>
 	</head>
-	<body>
-		<header>
-			<nav>
-				<ul id="navbar">
-					<li>
-						<a href="/home">Home</a>
-					</li>
-					<li>
-						<a href="/cars/new">Add a new Car</a>
-					</li>
-				</ul>
-			</nav>
-			<h1>Add a Car</h1>
-			
-		</header>
-		<main>
-			<form action="/cars" method="POST">
-				Name: <input type="text" name="name" placeholder="name" /><br />
-				Description: <input type="text" name="description" placeholder="description" /><br />
-				Image URL: <input type="text" name="img" /><br />
-				<input type="submit" value="Add Car" />
-			</form>
-		</main>
-	</body>
+<body>
+	
+	<main class="new">
+		<ul class="page">
+		<h1>Add Car</h1> 
+	
+	 <form class="names" action="/cars" method="POST">
+		<li>Name:<input type="text" name="name" /></li>
+		<li>Description:<input type="text" name="description" /></li>
+		<li>Image Url:<input type="text" name="img" /></li>
+			<input class="add" type="submit" value="Add Car" />
+		</form>
+	</ul>
+	</main>
+
+</body>
 </html>
