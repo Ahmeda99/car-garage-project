@@ -12,14 +12,14 @@ https://imgur.com/gallery/qcdWAhN
 
 https://imgur.com/gallery/Ay3as1s
 
-##Technologies Used
+## Technologies Used
 
  Bootstrap, Mongodb, Node js, HTML5, CSS, JavaScript, Jquery, Ajax, Method Override, Express.
  
- ##link
+ ## link
  
  https://carsproject2.herokuapp.com/home
  
-##future features
+## future features
 
 I would have liked to create a user login in able to create and share comments on certain cars you may find interesting.
